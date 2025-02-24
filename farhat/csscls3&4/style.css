@@ -1,0 +1,113 @@
+
+
+.h1{
+    text-align:center;
+}
+.data{
+
+width: 200px;
+height: 200px;
+border: 5px solid goldenrod  ;
+overflow: auto;
+
+    }
+
+    .border{
+        border: 3px solid black;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        font: 2em sans-serif;
+        border-bottom-left-radius:50px ;
+        border-bottom-right-radius: 50px;
+        background: #db3e22;
+
+
+    }
+    .border-shadow{
+    border: 2px solid black ;
+    padding: 10px;
+     margin: 10px;
+     box-shadow: 20px 20px 40px green;
+     font-size:x-large ;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    }
+
+    .parent{
+
+       border: 1px solid black;
+       height: 500px;
+       font-size: large ; 
+       font: bold;
+       background-color: green;
+       
+    
+    }
+    .child1{
+
+        border: 1px solid black; 
+        height: 200px;
+        width: 200px; 
+        float: left;
+        font-size: x-large ;
+        background-color:blue;
+     }
+     .child2{
+
+        border: 1px solid black;
+        height: 200px; 
+        width: 200px;
+        float: right;
+        font-size: x-large ;
+        
+        background-color:red; 
+        
+     }
+ 
+      .child3{ 
+
+        border: 1px solid black; 
+        height: 50px;
+        clear: both;
+        font-size: x-large ;
+        background-color: rgb(107, 39, 50);
+        
+        
+
+     }
+
+     .font{
+
+    font-family:'Courier New', Courier, monospace;
+    font-size : 300%;
+    font-weight: bold;
+    color:blue;
+    text-align: center;
+    font-style: italic;
+    font-variant: small-caps;
+
+     }
+
+     .roboto-uniquifier {
+        font-family: "Roboto", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      }
+     
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+ 
+  
+ 
+ 
+

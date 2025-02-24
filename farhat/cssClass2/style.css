@@ -1,0 +1,123 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  
+  
+ h1{
+text-align :center;
+
+ } 
+ #container{
+
+
+border: 10px groove black;
+ }
+#container1{
+
+
+    border: 3px   dotted  rgb(102, 24, 28) 
+
+}
+
+#container2{
+
+
+    border: 2px   solid  rgb(102, 24, 28); 
+    outline : 10px solid blueviolet;
+    outline-offset: 2px;
+
+}
+
+
+
+
+ /* hexadecimal code color  */
+ 
+ .para{
+     color: #a52525; 
+    font-size: 20px;
+    
+ }
+
+
+ .para1{
+    color: blue;
+    font-size: 20px;
+    
+ }
+
+ /* RGB color */
+
+ .para2{
+    color:  rgb(28, 148, 28) ;
+   
+    
+ }
+
+ /* RGBA color */
+
+ .para3{
+    color:  RGBA(28, 148, 0.6) ;
+    font-size: 20px;}
+
+
+
+    
+
+
+
+    .parent{
+      height: 400px;
+      width: 400px;
+      background-color: blueviolet;
+      font-size: 20px ;
+  }
+  .child{
+  height: 70%;
+  width:70%;
+  background-color: rgb(255, 174, 0);
+  font-size: 2em ;
+  
+  }
+
+  .child1{
+   height: 50%;
+   width:50%;
+   background-color: rgb(28, 148, 28);
+   font-size: 2rem ;
+ }
+
+ .test{
+border: 3px solid black;
+padding: 10px;
+margin: 10px;
+font-size: 2em;
+background-color: rgb(20, 70, 33);
+
+ }
+
+ .ht{
+
+    border: 2px solid red;
+    margin-top: 20px;
+    padding:10px;
+    
+    min-height: 50px;
+    width:50% ;
+    font-size: 20px;
+    background-color: aquamarine;
+
+ }
+
+
+ .box{
+     
+ border: 5px solid grey;
+    width: 200px;
+    height:200px ;
+    padding: 10px;
+    box-sizing: border-box;
+ }
+   
