@@ -17,6 +17,7 @@ text-shadow: 10px 10px 10px  ;
     text-transform: uppercase;
     word-spacing:10px ;
     line-height: 2;
+    background-color: aqua;
 }
 .decoration{
     width: 400px;
