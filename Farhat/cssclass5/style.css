@@ -1,0 +1,88 @@
+
+.h1{
+text-align: center;
+text-shadow: 10px 10px 10px  ;
+
+}
+
+.container{
+
+    width: 400px;
+    height: 400px;
+    margin: auto ;
+    border:2px solid black;
+    text-align: justify;
+    text-align-last: center;
+    text-indent: 20px;
+    text-transform: uppercase;
+    word-spacing:10px ;
+    line-height: 2;
+}
+.decoration{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    border:2px solid black;
+    text-align: justify;
+    /* short-hand */
+    text-decoration: overline blue dotted;
+
+
+}
+
+
+.decoration1{
+
+    text-decoration: none;
+
+
+    color: black;
+}
+
+.word-wrap{
+
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    border:2px solid black;
+    text-align: justify;
+    word-wrap: break-word;
+    background-color: blueviolet;
+
+}
+.word-break{
+
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    border:10px solid rgb(173, 28, 28);
+    outline: 10px solid yellow ;
+    outline-offset: 5px;
+    text-align: justify;
+    word-break: break-all;
+    background-color: rgb(43, 226, 83);
+
+}
+.box{
+
+    width: 100%;
+    white-space: nowrap;
+    margin:auto;
+    margin-top: 40px;
+    border:2px solid rgb(39, 11, 11);
+     overflow: hidden;
+    text-overflow: ellipsis;
+}
+.direction{
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    margin-top: 40px;
+    border:10px solid rgb(39, 11, 11);
+    writing-mode:vertical-lr ;
+
+
+}
